@@ -9,6 +9,11 @@ function App() {
           Beckett software
         </h1>
         <img src={logo} className="App-logo" alt="logo" />
+        <h4>Projects</h4>
+        <a href="https://github.com/beckett-software/beckett-framework">
+          <img src="https://gh-card.dev/repos/beckett-software/beckett-framework.png" alt="beckett-framework" />
+        </a>
+        <p><a href="https://beckettsoftware.substack.com/" target="_blank" rel="noopener noreferrer">Articles</a></p>
         <a
           className="App-link pt"
           href="https://github.com/beckett-software"

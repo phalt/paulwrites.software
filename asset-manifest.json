@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/beckett.software/static/css/main.9749bf2a.css",
-    "main.js": "/beckett.software/static/js/main.24956515.js",
-    "static/js/787.0bfccc2a.chunk.js": "/beckett.software/static/js/787.0bfccc2a.chunk.js",
-    "static/media/logo.jpeg": "/beckett.software/static/media/logo.65997b411cdb8fd0a998.jpeg",
-    "index.html": "/beckett.software/index.html",
-    "main.9749bf2a.css.map": "/beckett.software/static/css/main.9749bf2a.css.map",
-    "main.24956515.js.map": "/beckett.software/static/js/main.24956515.js.map",
-    "787.0bfccc2a.chunk.js.map": "/beckett.software/static/js/787.0bfccc2a.chunk.js.map"
+    "main.css": "/static/css/main.9749bf2a.css",
+    "main.js": "/static/js/main.12867d43.js",
+    "static/js/787.0bfccc2a.chunk.js": "/static/js/787.0bfccc2a.chunk.js",
+    "static/media/logo.jpeg": "/static/media/logo.65997b411cdb8fd0a998.jpeg",
+    "index.html": "/index.html",
+    "main.9749bf2a.css.map": "/static/css/main.9749bf2a.css.map",
+    "main.12867d43.js.map": "/static/js/main.12867d43.js.map",
+    "787.0bfccc2a.chunk.js.map": "/static/js/787.0bfccc2a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9749bf2a.css",
-    "static/js/main.24956515.js"
+    "static/js/main.12867d43.js"
   ]
 }

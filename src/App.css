@@ -25,3 +25,21 @@
 .pt {
   padding-top: 16px;
 }
+
+.projectBanner {
+  padding: 12px;
+  text-decoration: none!important;
+}
+
+.projectBanner h4 {
+  font-size: calc(1px + 4vmin);
+}
+
+.projectBanner img {
+  width: 80vmin;
+}
+
+.projectBanner p {
+  font-size: 18px;
+  text-decoration: none!important;
+}

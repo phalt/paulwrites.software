@@ -6,8 +6,7 @@ const projects = [
   url: "https://github.com/beckett-software/beckett-framework", 
   image: "https://github.com/beckett-software/beckett-framework/blob/main/docs/banner.jpg?raw=true",
   description: <>
-    <p>A full stack application server in Python and TypeScript, with strongly-linked types between frontend and backend.</p>
-    <p>Beckett framework boosts productivity by auto-generating Types, React pages, API clients, and more.</p>
+    <p>The Efficient Framework for Building Type-Safe Python Web Servers and React TypeScript Websites</p>
   </>
 },
 ]

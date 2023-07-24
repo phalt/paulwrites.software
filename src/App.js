@@ -2,6 +2,13 @@ import logo from './logo.jpeg';
 import './App.css';
 
 const projects = [
+  {name: "Clientele", 
+  url: "https://github.com/beckett-software/clientele", 
+  image: "https://github.com/beckett-software/clientele/blob/main/docs/clientele.jpeg?raw=true",
+  description: <>
+    <p>Typed API Clients from OpenAPI specs</p>
+  </>
+},
   {name: "Beckett Framework", 
   url: "https://github.com/beckett-software/beckett-framework", 
   image: "https://github.com/beckett-software/beckett-framework/blob/main/docs/banner.jpg?raw=true",

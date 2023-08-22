@@ -1,27 +1,28 @@
 import logo from './logo.jpeg';
 import './App.css';
-
+import ghLogo from 'super-tiny-icons/images/svg/github.svg'
+import twLogo from 'super-tiny-icons/images/svg/twitter.svg'
 const projects = [
-  {name: "Clientele", 
-  url: "https://github.com/phalt/clientele", 
-  image: "https://github.com/phalt/clientele/blob/main/docs/clientele.jpeg?raw=true",
-  description: <>
-    <p>Typed API Clients from OpenAPI schemas</p>
-  </>
+  {
+    name: "CLIENTELE", 
+    url: "https://github.com/phalt/clientele", 
+    description: <>
+      <p>LOVEABLE PYTHON API CLIENTS FROM OPENAPI SCHEMAS</p>
+    </>
 },
-  {name: "react-flask", 
+  {name: "REACT-FLASK", 
   url: "https://github.com/phalt/react-flask", 
-  image: "https://github.com/phalt/react-flask/blob/main/docs/banner.jpg?raw=true",
   description: <>
-    <p>Fully typed Flask and React applications</p>
+    <p>FULLY TYPED FLASK AND REACT APPLICATIONS</p>
   </>
 },
 ]
 
+const Blink = props => <span className='blinking-text'>{props.content}</span>
+
 const ProjectBanner = ({name, url, image, description}) =>
     <div className='projectBanner'>
-    <a href={url}><h4>{name}</h4></a>
-      <img src={image} alt={name} />
+    <a className="App-link" href={url}><h4>{name}</h4></a>
       {description}
     </div>
 
@@ -30,21 +31,32 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>
-          Paul writes software
+        AN INFINITELY PROTEAN MACHINE <p>$ <Blink content={"_"} /></p>
         </h1>
         <img src={logo} className="App-logo" alt="logo" />
-        <h4>Projects</h4>
-          {projects.map(p => <ProjectBanner {...p} />)}
+        <h4>CODE</h4>
+          {projects.map(p => <ProjectBanner key={p.name} {...p} />)}
+        <h4>CONTENT</h4>
+        <p><a className='App-link' href="https://apireviews.substack.com/">API REVIEWS</a></p>
+        <h4>CONNECT</h4>
         <a
           className="App-link pt"
           href="https://github.com/phalt"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Black/Github_black.svg" alt="github" />
+          <img className="small-square" src={ghLogo} alt="github" />
+        </a>
+        <a
+          className="App-link pt"
+          href="https://twitter.com/proteanmachine"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="small-square" src={twLogo} alt="twitter" />
         </a>
       </header>
-      <p>"Paul writes software" and all related projects is copyright Paul Hallett 2023</p>
+      <p>"Paul writes software", "Infinitely Protean Machine", and all related projects is copyright Paul Hallett 2023</p>
     </div>
   );
 }
